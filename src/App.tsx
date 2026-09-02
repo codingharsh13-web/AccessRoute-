@@ -388,7 +388,7 @@ export function App() {
             <span>— Navigate without barriers</span>
           </div>
           <p className="text-slate-400">
-            Hackathon Prototype • Primary Demo Environment: NIT Delhi Campus & Narela
+            AccessRoute Prototype • Universal Accessible Path Navigation
           </p>
         </div>
       </footer>

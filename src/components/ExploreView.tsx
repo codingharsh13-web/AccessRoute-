@@ -32,11 +32,11 @@ export const ExploreView: React.FC<ExploreViewProps> = ({ onSelectDestination, o
       {/* Header */}
       <div className="bg-gradient-to-r from-blue-600 to-indigo-700 rounded-2xl p-6 text-white shadow-md">
         <div className="flex items-center space-x-2 text-blue-200 text-xs font-bold uppercase tracking-wider mb-1">
-          <Compass className="w-4 h-4" /> NIT Delhi Campus & Narela Region
+          <Compass className="w-4 h-4" /> Accessible Places Database
         </div>
         <h2 className="text-xl sm:text-2xl font-extrabold">Discover Accessible Places</h2>
         <p className="text-xs sm:text-sm text-blue-100 mt-1 max-w-2xl">
-          Explore verified accessible facilities, transit stations, libraries, and medical centers around NIT Delhi.
+          Explore verified accessible facilities, transit hubs, landmarks, and medical centers.
         </p>
 
         {/* Search & Filter Bar */}
@@ -47,7 +47,7 @@ export const ExploreView: React.FC<ExploreViewProps> = ({ onSelectDestination, o
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search NIT Delhi campus buildings, metro, hostels..."
+              placeholder="Search accessible buildings, metro stations, landmarks..."
               className="w-full pl-9 pr-3 py-2 text-xs sm:text-sm font-medium rounded-xl bg-white text-slate-900 placeholder:text-slate-400 outline-none"
             />
           </div>

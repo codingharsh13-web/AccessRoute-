@@ -277,7 +277,7 @@ export const RouteSearch: React.FC<RouteSearchProps> = ({
           <div>
             <span className="font-extrabold text-amber-950 block">Accessibility Data Coverage Notice</span>
             <p className="text-[11px] text-amber-800 leading-snug">
-              Accessibility data coverage is limited in this area (outside primary NIT Delhi survey). Route availability does not guarantee complete accessibility information.
+              Accessibility data coverage is limited in this area. Route availability does not guarantee complete accessibility information.
             </p>
           </div>
         </div>

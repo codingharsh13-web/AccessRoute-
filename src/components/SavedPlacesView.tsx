@@ -98,7 +98,7 @@ export const SavedPlacesView: React.FC<SavedPlacesViewProps> = ({
             </div>
 
             <div>
-              <label className="text-xs font-bold text-slate-600 block mb-1">Select NIT Delhi Location</label>
+              <label className="text-xs font-bold text-slate-600 block mb-1">Select Preset Location</label>
               <select
                 value={selectedLocationId}
                 onChange={(e) => setSelectedLocationId(e.target.value)}

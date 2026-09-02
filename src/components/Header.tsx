@@ -39,7 +39,7 @@ export const Header: React.FC<HeaderProps> = ({
                   Access<span className="text-blue-600">Route</span>
                 </span>
                 <span className="px-2 py-0.5 text-[10px] font-bold rounded-md bg-blue-50 text-blue-700 border border-blue-200 uppercase tracking-wide">
-                  NIT Delhi Demo
+                  Live Prototype
                 </span>
               </div>
               <p className="text-xs text-slate-500 font-medium hidden sm:block">Navigate without barriers.</p>
@@ -105,7 +105,7 @@ export const Header: React.FC<HeaderProps> = ({
             }`}
           >
             <Compass className="w-3.5 h-3.5" />
-            <span>Explore NIT Delhi</span>
+            <span>Explore Places</span>
           </button>
 
           <button

@@ -456,7 +456,7 @@ export const MapView: React.FC<MapViewProps> = ({
             <code className="bg-slate-800 px-1 py-0.5 rounded text-amber-200 font-mono">VITE_GOOGLE_MAPS_API_KEY</code>
             {' '}in{' '}
             <code className="bg-slate-800 px-1 py-0.5 rounded text-amber-200 font-mono">.env</code>.
-            {' '}Showing AccessRoute Prototype Map (NIT Delhi).
+            {' '}Showing AccessRoute Interactive Map.
           </p>
         </div>
       )}
